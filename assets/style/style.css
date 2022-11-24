@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    top: 15%;
+    left: 35%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 25%;
+}
+    /* agregando un espaciado */
+body span {
+    padding-left: 7px;
+}
+
+        /* Preparando img, titulo, inputs y button */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background-color: #7ba238;
+    border: 1px solid #000;
+    border-radius: 2%;
+}
+
+.image {
+    margin-bottom: 50px;
+}
+
+.card input{ 
+    margin: 10px 0;
+    padding: 5px 50px;
+    text-align: center;
+    -moz-appearance:textfield;
+}
+
+.card button {
+    color: #fff;
+    font-size: 15px;
+    background-color: #e2a30b;
+    border: 1px solid #000;
+    padding: 3px 10px;
+    margin: 30px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card p {
+    font-size: 20px;
+    color: #000;
+}
+
+    /* Seccion de informacion */
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0 25px;
+    font-size: 25px;
+    /* border: 1px solid black; */
+}
+
+.info .fixed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#colors {
+    width: 20px;
+    height: 20px;
+    background-color: whitesmoke;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-left: 10px;
+}
